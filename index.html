@@ -5,37 +5,38 @@
     <meta charset="UTF-8">
 
     <!-- 浏览器标签页标题 -->
-    <title>数跃山大-山东大学数学学院体育信息平台</title>
+    <title>数跃山大 - 山东大学数学学院体育信息平台</title>
 
     <!-- 
-    引入 CSS 样式文件。
-    当前 index.html 在：
-    docs/index.html
+      引入 CSS 样式文件。
 
-    style.css 在：
-    docs/css/style.css
+      当前 index.html 在项目根目录：
+      math-sports-platform/index.html
 
-    所以路径是：
-    ./css/style.css
-  -->
+      style.css 在：
+      math-sports-platform/css/style.css
+
+      所以路径是：
+      ./css/style.css
+    -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
     <!-- 
-    页面顶部标题区域。
-    header 通常用来放网站标题、简介、导航等内容。
-  -->
+      页面顶部标题区域。
+      header 通常用来放网站标题、简介、导航等内容。
+    -->
     <header class="header">
-        <h1>数跃山大-山东大学数学学院体育信息平台</h1>
+        <h1>数跃山大 - 山东大学数学学院体育信息平台</h1>
         <p>校运会 · 院运会 · 田径队训练</p>
     </header>
 
     <!-- 
-    main 表示网页主体内容。
-    一个页面通常只有一个 main。
-  -->
+      main 表示网页主体内容。
+      一个页面通常只有一个 main。
+    -->
     <main class="main">
 
         <!-- 平台简介模块 -->
@@ -53,39 +54,39 @@
             <h2>功能入口</h2>
 
             <!-- 
-        feature-list 是功能卡片的外层容器。
-        它负责让下面几个功能卡片横向排列。
-      -->
+              feature-list 是功能卡片的外层容器。
+              里面每一个 feature-card 都是一个功能入口。
+            -->
             <div class="feature-list">
 
                 <!-- 
-          历年成绩查询入口。
-          点击后跳转到：
-          docs/pages/historical-results-query/results.html
-        -->
+                  历年成绩查询入口。
+                  点击后跳转到：
+                  pages/historical-results-query/results.html
+                -->
                 <a class="feature-card" href="./pages/historical-results-query/results.html">
                     <h3>历年成绩查询</h3>
-                    <p>查询数院历年校运会、院运会田径成绩。</p>
+                    <p>查询数院历年校运会、院运会田径成绩与田径队相关资料。</p>
                 </a>
 
                 <!-- 
-          院运会报名编排入口。
-          点击后跳转到：
-          docs/pages/sports-meeting-registration/registration.html
-        -->
+                  院运会报名编排入口。
+                  点击后先进入报名说明页；
+                  在 registration.html 里再跳转到腾讯文档报名表。
+                -->
                 <a class="feature-card" href="./pages/sports-meeting-registration/registration.html">
                     <h3>院运会报名编排</h3>
-                    <p>完成院运会项目报名、名单统计和分组编排。</p>
+                    <p>进入院运会报名说明页，并通过腾讯文档完成项目报名。</p>
                 </a>
 
                 <!-- 
-          训练签到入口。
-          点击后跳转到：
-          docs/pages/training-checkin/checkin.html
-        -->
+                  训练签到入口。
+                  当前阶段先作为功能占位页；
+                  后续可以接入腾讯文档、问卷表或数据库签到系统。
+                -->
                 <a class="feature-card" href="./pages/training-checkin/checkin.html">
                     <h3>训练签到</h3>
-                    <p>记录田径队日常训练出勤情况。</p>
+                    <p>记录田径队日常训练出勤情况，后续支持签到与统计功能。</p>
                 </a>
 
             </div>

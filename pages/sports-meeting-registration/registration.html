@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- 浏览器标签页标题 -->
+    <title>院运会报名 - 数跃山大</title>
+
+    <!-- 
+      当前文件位置：
+      pages/sports-meeting-registration/registration.html
+
+      CSS 文件位置：
+      css/style.css
+
+      所以需要返回两层：
+      ../../css/style.css
+    -->
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+
+    <!-- 页面顶部标题区域 -->
+    <header class="header">
+        <h1>院运会报名</h1>
+        <p>竞赛规程 · 项目报名</p>
+    </header>
+
+    <!-- 页面主体内容 -->
+    <main class="main">
+
+        <!-- 页面说明 -->
+        <section class="intro">
+            <h2>报名说明</h2>
+
+            <p>
+                本页面用于山东大学数学学院院运会相关信息发布与报名入口汇总。
+                请同学们先阅读竞赛规程，了解项目设置、报名要求、比赛规则和注意事项，
+                再通过报名链接填写个人信息与参赛项目。
+            </p>
+
+            <p>
+                报名前请认真核对姓名、年级、班级和参赛项目等信息，避免重复报名或漏报。
+                如报名信息需要修改，请及时联系相关负责人。
+            </p>
+        </section>
+
+        <!-- 报名相关入口 -->
+        <section class="features">
+            <h2>报名入口</h2>
+
+            <div class="feature-list">
+
+                <!-- 
+                  竞赛规程入口。
+
+                  当前竞赛规程 PDF 放在：
+                  pages/sports-meeting-registration/pdf-files/
+
+                  所以这里的路径是：
+                  ./pdf-files/2026年山东大学数学学院田径运动会竞赛规程.pdf
+                -->
+                <a class="feature-card" href="./pdf-files/2026年山东大学数学学院田径运动会竞赛规程.pdf" target="_blank">
+                    <h3>1. 竞赛规程</h3>
+                    <p>查看院运会竞赛规程、项目设置、报名要求和比赛注意事项。</p>
+                </a>
+
+                <!-- 
+                  报名链接入口。
+                  当前使用腾讯文档作为报名表。
+                  target="_blank" 表示在新标签页打开。
+                -->
+                <a class="feature-card" href="https://docs.qq.com/sheet/DUkV1bUpMYkxsY1Vu?tab=p4ot2v" target="_blank">
+                    <h3>2. 报名链接</h3>
+                    <p>进入腾讯文档报名表，填写姓名、年级、班级和参赛项目。</p>
+                </a>
+
+            </div>
+
+            <!-- 返回首页链接 -->
+            <p class="back-link">
+                <a href="../../index.html">返回首页</a>
+            </p>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
